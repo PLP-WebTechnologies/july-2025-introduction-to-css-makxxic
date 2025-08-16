@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics and the Box Model</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Basics and the Box Model</h1>
+    </header>
+    <nav class="nav">
+            <a id="a1" href="#home">Home</a>
+            <a id="a2" href="#box">Box Model</a>
+            <a id="a3" href="#about">About</a>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Understanding the Box Model</h2>
+            <p>The CSS box model is a fundamental concept in web design that describes how elements are structured and displayed on a webpage.</p>
+        </section>
+        <section id="about" class="card">
+          <h2>About CSS</h2>
+          <p>CSS (Cascading Style Sheets) controls the style and layout of web pages. 
+         It allows developers to separate structure (HTML) from presentation (CSS).</p>
+        </section>
+        <section id="box">
+            <h2>Box Model Components</h2>
+            <ul>
+                <li><strong>Content:</strong> The actual content of the box, such as text or images.</li>
+                <li><strong>Padding:</strong> Space between the content and the border.</li>
+                <li><strong>Border:</strong> A line surrounding the padding (if any) and content.</li>
+                <li><strong>Margin:</strong> Space outside the border, separating the box from other elements.</li>
+            </ul>
+            <div class="box-model">
+                <p>This is an example of a box model.</p>
+            </div>
+            <p id="p1">In this example, the box has a width of 200px, height of 100px, a light green background, a violet border of 15px, padding(around content) of 20px, a margin(outside border) of 20px and the box sizing is content box to give the content enough space.</p>
+            <button class="button">Click me</buttuon>
+        </section>
+    </main>
+  
+</body>
+<footer>
+        <p>&copy; 2025 Immaculate. All rights reserved.</p>
+</footer>
+</html>

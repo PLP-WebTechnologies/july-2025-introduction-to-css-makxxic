@@ -1,0 +1,84 @@
+/*external css file */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0; /* remove default margin */
+  background-color: lightcyan;
+  color: #131212;
+}
+header {
+  background: #4ae2f9;
+  color: black;
+  text-align: center;
+  padding: 30px;
+  border-bottom: 5px solid #388E3C;
+}
+.nav {
+  background: lightpink;
+  padding: 20px;
+  text-align: center;
+}
+a:hover{
+    color:purple;
+    background: #555;
+    border-radius: 5px;
+}
+nav #a1, nav #a2, nav #a3 {
+  color: black;
+  text-decoration: underline;
+  margin: 0 15px;
+  padding: 5px 10px;
+  display: inline-block;
+}
+h2 {
+   text-decoration: underline blue;
+   padding-left: 20px;
+}
+#home p,#p1 {
+  font-size: 18px;
+  margin: 20px;
+}
+ul strong {
+  color: #03a608;
+}
+p{
+  font-size: 18px;
+}
+.card {
+  background: rgb(249, 207, 248);
+  border: 2px solid #ddd;
+  padding: 20px;
+  margin:10px 30px;
+  width: 300px;
+  box-sizing: border-box; /* demonstrates box model */
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+.box-model {
+  width: 200px;
+  height: 100px;
+  background-color: lightgreen;
+  border: 15px solid violet;
+  padding: 20px;
+  margin: 30px;
+  box-sizing: content-box; /* ensures padding and border are not included in the total width and height */
+}
+.button {
+  background-color: orangered;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin:20px 30px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0ff50;
+  color: black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: larger;
+}
